@@ -6,7 +6,7 @@
 	margin:0;
 	padding:0;
 	font-size:15pt;
-	background-color:#29B6F6;
+	background-color:#FF7043;
 }
 
 .menu2
@@ -45,18 +45,16 @@
 
 .header{
 	height: 150px;
-	background-color: blue;
 	padding: 60px;
 	display: block;
-	background: url(rusa.jpg)
+	background: url(rusa.jpg);
+	text-align: center;
+	font-size: 42pt;
+	color: #3E2723;
+	text-shadow: 2px 2px 5px red;
 }
 
-.pengantar{
-	height: 40px;
-	width: auto;
-	border: 1px solid black;
-	color: white;
-}
+
 
 .menu{
 	margin-top: 5px;
@@ -88,7 +86,7 @@
 
 .kotakjudul{
 	height: auto;
-	background-color: blue;
+	background-color: #F4511E;
 	color: white;
 	width: auto;
 	border: 1px solid black;
@@ -115,6 +113,7 @@
 	color: black;
 	font-size: 12pt;
 	width: auto;
+	background-color: #BDBDBD
 }
 
 p{
@@ -125,25 +124,22 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+	font-family: verdana;
 }
 
 .kontenfull{
 	width: 78%;
-	background-color: white;
+	background-color:  #BDBDBD;
 	color: black;
 	float: left;
 	margin-left: 20px;
 }
 
 body{
-	background: url(winner.jpg)	
+	background-image: url(kapal.jpg);
+	background-repeat: repeat-x;
 }
 
-.biasa{
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
 a:visited {
   color: #01579B;
   background-color: transparent;
@@ -163,12 +159,19 @@ a:active {
 footer {
   background-color: #777;
   padding: 10px;
-  
+
   color: white;
-   clear: both;
-   position: relative;
-   height: 100px;
-   margin-top: -40px;
+  clear: both;
+	position: relative;
+  height: 100px;
+  margin-top: -40px;
 
 }
 
+.tengah {
+	text-align:center;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
